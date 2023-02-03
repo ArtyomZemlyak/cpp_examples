@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects">
+      <UniqueIdentifier>{0f5ddbd0-30a6-4e14-8ce5-ab960e21d67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Configs">
+      <UniqueIdentifier>{6ef514b0-9dc9-40d7-8bea-08960474ee06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Game">
+      <UniqueIdentifier>{80a26107-dfa9-4e8e-ac64-53f9b5ff577b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Configs">
+      <UniqueIdentifier>{1960fb1d-9ae8-4f35-af7b-ec00a49cc417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Objects">
+      <UniqueIdentifier>{4d67fe4f-48ff-4c1e-b47f-31c550ba2213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Game">
+      <UniqueIdentifier>{789e17db-2ce9-4da6-a034-c53b93dbe619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Configs\tank">
+      <UniqueIdentifier>{7e9c1160-d9ce-4f43-b324-dfc1f018282f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Configs\tank\tank_player">
+      <UniqueIdentifier>{b200f668-8d67-4013-840e-3c495b67fae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Configs\tank\tank_II">
+      <UniqueIdentifier>{1ce5bcd5-5dee-4216-85a6-0cf24fb8c131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Configs\game">
+      <UniqueIdentifier>{48cacdf6-a4d6-4bc4-9e3b-dc9f5f6401d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="tank.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Исходные файлы\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="base-types.cpp">
+      <Filter>Исходные файлы\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="enemys.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base-types.h">
+      <Filter>Файлы заголовков\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Файлы заголовков\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="tank.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="enemys.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="config_tank_balance.h">
+      <Filter>Файлы заголовков\Configs\tank\tank_player</Filter>
+    </ClInclude>
+    <ClInclude Include="config_tank_heavy.h">
+      <Filter>Файлы заголовков\Configs\tank\tank_player</Filter>
+    </ClInclude>
+    <ClInclude Include="config_tank_light.h">
+      <Filter>Файлы заголовков\Configs\tank\tank_player</Filter>
+    </ClInclude>
+    <ClInclude Include="config_map.h">
+      <Filter>Файлы заголовков\Configs\game</Filter>
+    </ClInclude>
+    <ClInclude Include="config_tank.h">
+      <Filter>Файлы заголовков\Configs\tank</Filter>
+    </ClInclude>
+    <ClInclude Include="config_tank_II.h">
+      <Filter>Файлы заголовков\Configs\tank\tank_II</Filter>
+    </ClInclude>
+    <ClInclude Include="config_effects.h">
+      <Filter>Файлы заголовков\Configs\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
